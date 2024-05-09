@@ -117,5 +117,8 @@ function maiusculo(){
 
 function resp(){
     nome = document.getElementById("nome").value.toUpperCase();
-    alert("Sr(a) " + nome +", seus dados foram enviados com sucesso.");
+    alert("Sr(a) " + nome +", seus dados foram enviados com sucesso, nossa equipe entrara em contato.");
 }
+
+
+

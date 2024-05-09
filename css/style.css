@@ -10,7 +10,16 @@ input{
 }
 
 .img-homem{
+    margin-bottom: 5%;
+    width: 200%;
+    margin-inline-start: 30%;
+}
+
+
+.container{
+    background-color: rgb(14, 12, 12);
     width: 100%;
+    padding: 5%;
 }
 
 
@@ -22,10 +31,8 @@ input{
 
 
 
-
-
 .mainav{
-    background-color: gray;
+    background-color: rgb(198, 55, 55);
     margin-top: 1%;
     margin-bottom: 1%;
 }
@@ -39,12 +46,12 @@ input{
 
 .mainav li a{
     text-decoration: none;
-    color: #FFFFFF;
-    font-size: 20px;
+    color: #000000;
+    font-size: 30px;
 }
 .mainav li a:hover{
     text-decoration: none;
-    background-color: black;
+    background-color: rgb(198, 182, 182);
     transition: 0.4s;
     font-size: 20px;
 }
@@ -68,25 +75,29 @@ input{
 }
 
 .footer{
-    background-color: gray;
+    background-color: rgb(198, 55, 55);
     clear: both;
-    color: #FFFFFF;
-    text-align: right;
+    color: #040404;
+    text-align:center;
     font-weight: bold;
+    
 }
 
 .menul{
-    float: right;
+    float: left;
     width: 35%;
 }
 .menul iframe{
     margin-left: 25%;
 }
+.border{
+    margin-left: 5%;
+}
 
 .zap{
-    width: 150;
-    height: 250px;
-    margin-left: 20%;
+    width: 60%;
+    height: 40%;
+    margin-left: 1%;
 }
 
 .tabela{
