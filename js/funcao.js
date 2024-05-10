@@ -115,6 +115,24 @@ function maiusculo(){
     document.getElementById("nome").value = nomemaior;
 }
 
+
+function maiusculo(){
+    partecorpomaior = document.getElementById("parte-corpo").value.toUpperCase();
+    document.getElementById("parte-corpo").value = partecorpomaior;
+}
+
+
+function maiusculo(){
+    tamanhomaior = document.getElementById("tamanho").value.toUpperCase();
+    document.getElementById("tamanho").value = tamanhomaior;
+}
+
+
+function maiusculo(){
+    ideiamaior = document.getElementById("ideia").value.toUpperCase();
+    document.getElementById("ideia").value = ideiamaior;
+}
+
 function resp(){
     nome = document.getElementById("nome").value.toUpperCase();
     alert("Sr(a) " + nome +", seus dados foram enviados com sucesso, nossa equipe entrara em contato.");

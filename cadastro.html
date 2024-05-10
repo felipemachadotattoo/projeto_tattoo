@@ -86,19 +86,19 @@
                         <br>
                         <div class="form-group">
                             <label>Local do Corpo</label>
-                            <input type="text"  onblur="maiusculo()"class="form-control" id="validade" name="validade"  required>
+                            <input type="text"  onblur="maiusculo()"class="form-control" id="parte-corpo" name="parte-corpo"  required>
                         </div>
                         <br>
                         <div class="form-group">
                             <label>Tamanho da TATTOO (em centimetros)</label>
-                            <input type="text" class="form-control" id="codigo" name="codigo" required>
+                            <input type="text"  onblur="maiusculo()" class="form-control" id="tamanho" name="tamanho" required>
                         </div>
                         
                         <br>
                             <label>Descreva sua Ideia de TATTOO:</label>
                     <br>
                   
-                    <textarea name="recado" id="recado" maxlength="200" rows="5" cols="49"></textarea>
+                    <textarea onblur="maiusculo()" name="ideia" id="ideia" maxlength="200" rows="5" cols="49"></textarea>
                     <br><br>
                     <button type="submit" class="btn btn-primary">Enviar</button>
                     <input type="reset" value="LIMPAR">
